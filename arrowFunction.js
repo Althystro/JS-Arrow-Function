@@ -20,3 +20,14 @@ const squaredNumber = (number) => {
   return console.log(number * number);
 };
 squaredNumber(9);
+
+//challenge
+
+const arraySquared = (array) => {
+  let result = array.map((value) => {
+    return value * value;
+  });
+  return result;
+};
+let arrayOfNumbers = [1, 2, 3, 4];
+console.log(arraySquared(arrayOfNumbers));
